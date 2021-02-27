@@ -22,7 +22,7 @@ O Move.it é um App que utiliza a técnica de [pomodoro](https://pt.wikipedia.or
 
 <p align="center">
   <a href="https://www.figma.com/file/PhTJiJXSKjLvlMNmrNXjI7/Move.it-2.0-(Copy)?node-id=160%3A2761">
-    <img alt="Figma" src="https://www.figma.com/file/PhTJiJXSKjLvlMNmrNXjI7/Move.it-2.0-(Copy)?node-id=2%3A7"/>
+    <img alt="Figma" src="https://img.shields.io/badge/figma%20-%236E40C9.svg?&style=for-the-badge&logo=figma&logoColor=white"/>
   </a>
 </p>
 
