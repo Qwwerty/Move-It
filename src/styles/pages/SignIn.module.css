@@ -1,0 +1,103 @@
+.containerSignIn {
+  width: 100%;
+  height: 100vh;
+  background: #5965E0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simboloLeft {
+  align-self: flex-start;
+  justify-self: flex-start;
+  flex: 1;
+}
+
+.simboloLeft img {
+  width: 80%;
+}
+
+.sign {
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+}
+
+.imgMoveIt {
+  margin-bottom:3.5rem;
+  width: 60%;
+}
+
+.sign > p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  margin-bottom: 1rem;
+}
+
+.github {
+  display: flex;
+  max-width: 280px;
+  color: #B2B9FF;
+  margin-bottom: 4rem;
+}
+
+.github > p {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+
+.actionSign {
+  display: flex;
+}
+
+.actionSign > input {
+  border: 0;
+  background: #4953B8;
+  padding: 1.5rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 60%;
+  color: #fff;
+}
+
+.actionSign > input::placeholder {
+  color: #fff;
+}
+
+.actionSign > input:focus {
+  outline: none;
+}
+
+.buttonDisabled {
+  padding: 1.5rem;
+  border: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #4953B8;
+
+  transition: filter 0.2s;
+}
+
+.buttonDisabled:hover {
+  cursor: not-allowed;
+}
+
+.buttonDisabled:focus {
+  outline: none;
+}
+
+.login {
+  padding: 1.5rem;
+  border: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #4CD62B;
+
+  transition: filter 0.2s;
+}
+
+.login:hover {
+  filter: brightness(0.9);
+}

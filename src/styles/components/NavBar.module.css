@@ -1,0 +1,92 @@
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.container h2 {
+  font-size: 3rem;
+}
+
+.container .cabecalho {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+}
+
+.container .cabecalho > span {
+  margin-right: 2rem;
+}
+
+.registros {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.registros > div:first-child {
+  background: #fff;
+  width: 10%;
+  height: 6rem;
+  margin-right: 1rem;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5rem;
+}
+
+.registros > div:last-child {
+  background: #fff;
+  width: 100%;
+  height: 6rem;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.registros > div:last-child > img { 
+  width: 8%;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.names {
+  width: 60%;
+}
+
+.xp {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+
+  font-size: 1rem;
+}
+
+.div1 {
+  width: 100px;
+}
+
+.div2 {
+  width: 600px;
+}
+
+.div3 {
+  width: 150px;
+}
+
+.div4 {
+  width: 100px;
+}

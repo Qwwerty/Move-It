@@ -1,0 +1,67 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  background: #ffffff;
+  width: 7%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar  > div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imageLogoTop {
+  margin-top: 2rem;
+}
+
+.actionIcones {
+  width: 100%;
+}
+.actionIcones > div {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: 6px solid #4953B8;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionIcones button {
+  border: 0;
+}
+
+.actionIcones button:focus {
+  outline: none;
+}
+
+.power{
+  border: 0;
+  position: absolute;
+  bottom: 0;
+  padding: 30px;
+}
+
+
+.power > button {
+  border: 0;
+}
+
+.power button:focus {
+  outline: none;
+  cursor: pointer;
+ }
+
+
