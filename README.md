@@ -63,7 +63,6 @@ $ yarn start
 
 <br>
 
-
 ## Licença
 <a href="https://opensource.org/licenses/MIT">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-6E40C9?style=flat-square">
